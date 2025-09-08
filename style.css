@@ -2,16 +2,15 @@ body {
     color: purple;
     background: blueviolet;
     margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 header {
     border-bottom: solid 2px black(42, 122, 228);
     padding: 20px;
     font-size: 32px;
     color: red(212, 42, 228);
 }
-<section{
+.chamada {
     background-color:aqua;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -20,5 +19,27 @@ header {
 }
 
 .chamada-texto{
-    margin-right: ;
+    margin-right: 5%
+}
+
+h1{font-size:40px
+
+}
+p{font-size:20px;
+
+}
+img {
+    height:200px;
+
+
+}
+.categoria-videos {
+    display: flex;
+    overflow:auto;
+    gap:10px;
+
+}
+.categoria {
+    padding-left: 20px;
+    padding-right:20px;
 }
