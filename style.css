@@ -12,5 +12,9 @@ header {
     color: red(212, 42, 228);
 }
 <section{
-    background-color:aqua
+    background-color:aqua;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
